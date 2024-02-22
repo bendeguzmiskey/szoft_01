@@ -6,5 +6,7 @@ namespace szoft_02
         {
             InitializeComponent();
         }
+
+        
     }
 }
