@@ -1,4 +1,4 @@
-﻿namespace fibonacci
+﻿namespace AdatokRacsban
 {
     partial class Form1
     {
@@ -35,7 +35,7 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(262, 292);
+            dataGridView1.Location = new Point(300, 233);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 25;
             dataGridView1.Size = new Size(240, 150);
