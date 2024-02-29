@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdatokRacsban", "AdatokRacs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harmadikGyak", "harmadikGyak\harmadikGyak.csproj", "{526174B7-2FF6-4FBC-B304-1911BD70BBB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "randomSzar", "randomSzar\randomSzar.csproj", "{26CA3D6F-4936-4B74-AB70-D36CDE490723}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{526174B7-2FF6-4FBC-B304-1911BD70BBB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{526174B7-2FF6-4FBC-B304-1911BD70BBB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{526174B7-2FF6-4FBC-B304-1911BD70BBB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26CA3D6F-4936-4B74-AB70-D36CDE490723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26CA3D6F-4936-4B74-AB70-D36CDE490723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26CA3D6F-4936-4B74-AB70-D36CDE490723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26CA3D6F-4936-4B74-AB70-D36CDE490723}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

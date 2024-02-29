@@ -1,4 +1,4 @@
-namespace harmadikGyak
+namespace randomSzar
 {
     public partial class Form1 : Form
     {
@@ -18,18 +18,16 @@ namespace harmadikGyak
 
 
                     Button uj = new Button();
-                    uj.Height = rnd.Next(1,50);
-                    uj.Width = rnd.Next(1,100);
+                    uj.Height = rnd.Next(1, 50);
+                    uj.Width = rnd.Next(1, 100);
 
-                    uj.Left = rnd.Next(1,10) * 110;
-                    uj.Top = rnd.Next(1,10)*55;
+                    uj.Left = rnd.Next(1, 10) * 110;
+                    uj.Top = rnd.Next(1, 10) * 55;
 
                     uj.BackColor = Color.FromArgb(rnd.Next(1, 255), rnd.Next(1, 255), rnd.Next(1, 255));
                     Controls.Add(uj);
                 }
             }
-
-
         }
     }
 }
