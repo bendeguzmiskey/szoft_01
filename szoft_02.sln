@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harmadikGyak", "harmadikGya
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "randomSzar", "randomSzar\randomSzar.csproj", "{26CA3D6F-4936-4B74-AB70-D36CDE490723}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "otosFeladat", "otosFeladat\otosFeladat.csproj", "{434853E1-9C7D-4263-861F-6A954827D8B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{26CA3D6F-4936-4B74-AB70-D36CDE490723}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26CA3D6F-4936-4B74-AB70-D36CDE490723}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26CA3D6F-4936-4B74-AB70-D36CDE490723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434853E1-9C7D-4263-861F-6A954827D8B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434853E1-9C7D-4263-861F-6A954827D8B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434853E1-9C7D-4263-861F-6A954827D8B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434853E1-9C7D-4263-861F-6A954827D8B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
