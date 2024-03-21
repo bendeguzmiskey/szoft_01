@@ -21,25 +21,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "otosFeladat", "otosFeladat\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "zhElsoGyak", "zhElsoGyak", "{D9034032-DEAE-45CC-B7C4-AB02FA39D11B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "elsoOra", "elsoOra\elsoOra.csproj", "{939F3F8D-E7FD-488D-B479-EB13EA234A6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "elsoOra", "elsoOra\elsoOra.csproj", "{939F3F8D-E7FD-488D-B479-EB13EA234A6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szorzoTablaGyak", "szorzoTablaGyak\szorzoTablaGyak.csproj", "{D36C1C8E-5C2F-45EE-8D20-32CC31FF3B52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "szorzoTablaGyak", "szorzoTablaGyak\szorzoTablaGyak.csproj", "{D36C1C8E-5C2F-45EE-8D20-32CC31FF3B52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fibonacciSorGyak", "fibonacciSorGyak\fibonacciSorGyak.csproj", "{6006857B-FD23-4240-831B-334BE111FBE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fibonacciSorGyak", "fibonacciSorGyak\fibonacciSorGyak.csproj", "{6006857B-FD23-4240-831B-334BE111FBE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pascalHaromszogGyak", "pascalHaromszogGyak\pascalHaromszogGyak.csproj", "{1BFD6194-C93A-4204-A047-8172B567D3EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pascalHaromszogGyak", "pascalHaromszogGyak\pascalHaromszogGyak.csproj", "{1BFD6194-C93A-4204-A047-8172B567D3EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sakkTabla", "sakkTabla\sakkTabla.csproj", "{5ADFB447-EB4D-43C8-964A-8B30F7AFF052}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sakkTabla", "sakkTabla\sakkTabla.csproj", "{5ADFB447-EB4D-43C8-964A-8B30F7AFF052}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harmadikElso", "harmadikElso\harmadikElso.csproj", "{D04CB334-40D9-4A68-B5E1-597EEAA931D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "harmadikElso", "harmadikElso\harmadikElso.csproj", "{D04CB334-40D9-4A68-B5E1-597EEAA931D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harmadikMasodik", "harmadikMasodik\harmadikMasodik.csproj", "{C6283873-705C-4019-B441-D73796F2B1DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "harmadikMasodik", "harmadikMasodik\harmadikMasodik.csproj", "{C6283873-705C-4019-B441-D73796F2B1DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harmadikHarmadik", "harmadikHarmadik\harmadikHarmadik.csproj", "{6BB8B03E-46E8-4D59-AB56-4AF6D028525E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "harmadikHarmadik", "harmadikHarmadik\harmadikHarmadik.csproj", "{6BB8B03E-46E8-4D59-AB56-4AF6D028525E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harmadikHaromszog", "harmadikHaromszog\harmadikHaromszog.csproj", "{5ABA05D1-D521-4FF0-BE78-7B70D5D56DE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "harmadikHaromszog", "harmadikHaromszog\harmadikHaromszog.csproj", "{5ABA05D1-D521-4FF0-BE78-7B70D5D56DE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "harmadikKaracsonyfa", "harmadikKaracsonyfa\harmadikKaracsonyfa.csproj", "{1ED411B0-2D3F-4203-B009-7BF72CCC013A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "harmadikKaracsonyfa", "harmadikKaracsonyfa\harmadikKaracsonyfa.csproj", "{1ED411B0-2D3F-4203-B009-7BF72CCC013A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hatodikGyakorlat", "hatodikGyakorlat\hatodikGyakorlat.csproj", "{DAC5500C-6202-4788-8406-11479E481DF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,6 +121,10 @@ Global
 		{1ED411B0-2D3F-4203-B009-7BF72CCC013A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ED411B0-2D3F-4203-B009-7BF72CCC013A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ED411B0-2D3F-4203-B009-7BF72CCC013A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC5500C-6202-4788-8406-11479E481DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC5500C-6202-4788-8406-11479E481DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC5500C-6202-4788-8406-11479E481DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC5500C-6202-4788-8406-11479E481DF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
