@@ -7,7 +7,7 @@ namespace hatodikGyakorlat
         int irány_x = 1;
         int irány_y = 0;
         int lépésszám = 0;
-        int hossz = 0;
+        int hossz = 5;
 
         List<KígyóElem> kígyó = new List<KígyóElem>();
 
@@ -22,7 +22,17 @@ namespace hatodikGyakorlat
 
             if (lépésszám % 10 == 0)
             {
-                hossz++;
+                Random rnd = new Random();
+                Mérgek méreg = new Mérgek();
+                méreg.Top = 100 * rnd.Next(5);
+                méreg.Left = 100 * rnd.Next(5);
+                Controls.Add(méreg);
+
+                Alma alma = new Alma();
+                alma.Top = 100 * rnd.Next(5);
+                alma.Left = 100 * rnd.Next(5);
+                Controls.Add(alma);
+
             }
 
             //Fejnövesztés
@@ -41,9 +51,34 @@ namespace hatodikGyakorlat
                         return;
                     }
                 }
+
+                if (item is Mérgek)
+                {
+                    Mérgek k = (Mérgek)item;
+
+                    if (k.Top == fej_y && k.Left == fej_x)
+                    {
+                        timer1.Enabled = false;
+                        return;
+                    }
+                }
+
+                if (item is Alma)
+                {
+                    Alma k = (Alma)item;
+
+                    if (k.Top == fej_y && k.Left == fej_x)
+                    {
+                        hossz++;
+                        Controls.Remove(k);
+                        return;
+                    }
+                }
             }
 
             KígyóElem ke = new KígyóElem();
+            ke.Top = fej_y;
+            ke.Left = fej_x;
             kígyó.Add(ke); //Amikor új fejet neveztünk a kígyónak, azt beletesszük a `kígyó` listába is ..
             Controls.Add(ke); //.. és az ûrlap vezérlõinek a listájába is
 
