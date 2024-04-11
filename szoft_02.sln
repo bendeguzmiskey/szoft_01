@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "harmadikHaromszog", "harmad
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "harmadikKaracsonyfa", "harmadikKaracsonyfa\harmadikKaracsonyfa.csproj", "{1ED411B0-2D3F-4203-B009-7BF72CCC013A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hatodikGyakorlat", "hatodikGyakorlat\hatodikGyakorlat.csproj", "{DAC5500C-6202-4788-8406-11479E481DF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hatodikGyakorlat", "hatodikGyakorlat\hatodikGyakorlat.csproj", "{DAC5500C-6202-4788-8406-11479E481DF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adatkotes", "Adatkotes\Adatkotes.csproj", "{E7381DAB-DB54-4C01-9CCD-DE6BBAD26F0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +127,10 @@ Global
 		{DAC5500C-6202-4788-8406-11479E481DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAC5500C-6202-4788-8406-11479E481DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAC5500C-6202-4788-8406-11479E481DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7381DAB-DB54-4C01-9CCD-DE6BBAD26F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7381DAB-DB54-4C01-9CCD-DE6BBAD26F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7381DAB-DB54-4C01-9CCD-DE6BBAD26F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7381DAB-DB54-4C01-9CCD-DE6BBAD26F0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
